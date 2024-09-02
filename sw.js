@@ -1,6 +1,10 @@
+// sw.js
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-	'/pwa/',
+  '/',
+  '/index.html',
+  '/style.css',
+  // その他キャッシュしたいファイルを追加
 ];
 
 // インストール処理
